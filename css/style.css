@@ -4,6 +4,37 @@ Primary Color (White): #FFFFFF;
 Secondary Color (Black): #000000;
 Accent Color (Tan): #B07E09;
 */
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+#logo {
+  color: #ffffff;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+#hero {
+  background-color: #000000;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  color: #ffffff;
+}
 body {
     background-color:#ffffff;
     font-family: 'open+sans', sans-serif;
@@ -17,7 +48,7 @@ body {
     line-height: 1.4;
   }
   h1 {
-    font-size: 2.75em;
+    font-size: 2.50em;
     font-weight: 600;
   }
   
@@ -35,7 +66,17 @@ body {
     font-weight: 400;
   }
   img {
+    max-width: 1200px;
     width: 100%;
+  }
+  footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+  }
+  nav > ul > li > a:visited { 
+    color: #ffffff;
   }
   a {
     color: #000000;
@@ -60,7 +101,7 @@ a:focus {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #B07E09;
   color: #ffffff; /* needed to override the default link color */
-  font-weight: 700;
+  font-weight: 500;
   padding: 10px;
   border: 2px ;
   border-radius: 3px;
@@ -101,5 +142,11 @@ text-decoration: underline;
 .button.contact:hover,
 .button.contact:focus {
 color: #ffffff;
-text-decoration: underline;
+}
+/* Layout Styling */
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
