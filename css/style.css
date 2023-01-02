@@ -12,6 +12,9 @@ header {
   text-align: center;
   padding: 10px 0;
 }
+header > a {
+  color: #ffffff;
+}
 #logo {
   color: #ffffff;
 }
@@ -21,6 +24,7 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
+  width: 100%;
 }
 nav > ul > li > a {
   padding: 0 15px;
