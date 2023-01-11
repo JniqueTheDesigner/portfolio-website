@@ -1,0 +1,1 @@
+console.log ("Hi I'm Jnique The Designer, Welcome to My Portfolio Site")
