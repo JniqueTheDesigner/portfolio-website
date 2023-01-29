@@ -11,18 +11,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/cc83d88704.js" 
+        crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
                 <a href="index.html" id="logo">Jnqiue The Designer</a>
             <nav>
                 <ul class="navigation">
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" 
+                    onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                 </ul>
-            </nav> 
+            </nav>
+            </div>
             </header>
+            
         <main class="indexmain">
                     <div id="hero">
                         <div class="container">
@@ -32,14 +40,15 @@
                 <div id="work">
                     <div class="container">
                         <h2>My Work</h2>
+                        <div>
                         <div class="row">
-                            <div class="column col-md-6 col-md-12 col-lg-7">
+                            <div class="column col-md-6 col-lg-7 col-xlg-7 col-extralg-7">
                                 <picture>
                                     <source srcset="img/On_Tour/OnTour_Cover@1x.jpg" media="(max-width:767px)">
                                     <img src="img/On_Tour/OnTour_Cover@2x.jpg" alt="On Tour Project Cover" class="imagedetail">
                                 </picture>
                             </div>
-                            <div>
+                            <div class="description" class="column col-md-6 col-lg-5 col-xlg-5 col-extralg-5">
                                 <h3> On Tour: Money saving Tool for Indie Artists</h3>
                                 <p>Is a money saving tool for Indie artists, that provides strategy and budget plans to assist artists with their music career progression. Indie artists undergo an onboarding process before creating an account, providing metrics based on their career’s revenue, so On Tour can provide personalized information and financial plans.
                                 </p>
@@ -48,14 +57,16 @@
                                 <a href="project_ontour.html" class="button">View Project</a>
                             </div>
                         </div>
+                        </div>
+                        <div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="column col-md-6 col-lg-7 col-xlg-7 col-extralg-7">
                                 <picture>
                                     <source srcset="img/Bespoke/Bespoke_Cover1x.jpg" media="(max-width:767px)">
                                     <img src="img/Bespoke/Bespoke_Cover2x.jpg" alt="Bespoke Project Cover" class="imagedetail">
                                 </picture>
                             </div>
-                            <div class="column col-md-6 col-lg-5">
+                            <div class="description" class="column col-md-6 col-lg-5 col-xlg-5 col-extralg-5">
                                 <h3> Bespoke: Retail Sales App</h3>
                                 <p> An ecommerce sales app for vintage streetwear clothing. Users can buy and sell clothing, track deliveries and save items to their favorites. 
                                 </p>
@@ -63,6 +74,7 @@
                                 </p>
                                 <a href="#" class="button">View Project</a>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -119,6 +131,9 @@
                 <p>Copyright Jasmin Hamilton 2023</p>
             </div>
             </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+            crossorigin="anonymous"></script>
             <script src="js/scripts.js"></script>
     </body>
     </html>

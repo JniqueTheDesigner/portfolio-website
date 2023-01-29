@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>
-            About Jasmin Hamilton
+            Jasmin Hamilton UI/UX Designer
         </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -11,18 +11,24 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/cc83d88704.js" 
+        crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <a href="index.html" id="logo">Jnqiue The Designer</a>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html" id="logo">Jnqiue The Designer</a>
             <nav>
-                <ul>
+                <ul class="navigation">
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" 
+                    onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                 </ul>
             </nav>
-                <div></div>
+            </div>
             </header>
         <main>
             <div>
@@ -59,7 +65,8 @@
                             outcomes from first breaking down big ideas into smaller manageable pieces, then forming a plan of
                             execution. I am a Creative at heart, I’m always drawn to the aesthetic and appeal of a brand, but I
                             balance it with being cognitive to data and analytics using it sparingly in marketing and branding.</p>
-                        <a href="files/JasminHamilton _Resume.pdf" class="button" target="_blank">Dowload My Resume/CV </a>
+                        <div class="resumebutton"> <a href="files/JasminHamilton _Resume.pdf" class="button" target="_blank">Dowload My Resume/CV </a>
+                        </div>
                     </div>
                     <div class="container">
                         <h1>Skills & Tools</h1>
@@ -158,5 +165,9 @@
                 <p>Copyright Jasmin Hamilton 2023</p>
             </div>
             </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+            crossorigin="anonymous"></script>
+            <script src="js/scripts.js"></script>
     </body>
     </html>
