@@ -22,17 +22,20 @@ header {
 header > a {
   color: #ffffff;
 }
-a#logo {
-  color: #ffffff;
+
+.logo {
+  max-width: 150px;
+  padding: 0px 0px 15px 0px;
 }
+
 nav > ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0 15px 0px 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
@@ -43,9 +46,8 @@ nav > ul > li > a {
   
 }
 
-
 main {
-  padding-top: 47.59px;
+  padding-top: 150px;
 }
 
 /* hero section */
@@ -138,10 +140,6 @@ body {
   display: inline-block;
   padding-top: 20px;
  }
-
- .logo {
-  max-width: 250px;
-}
 
   a {
     color: #ffffff;
@@ -255,6 +253,7 @@ opacity: 0.8;
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 
 
@@ -316,7 +315,7 @@ Medium devices (641px and larger)
   }
 
   main {
-    padding-top: 175.59px;
+    padding-top: 362px;
   }
 
   .col-md-6 {
@@ -345,7 +344,9 @@ large devices (1024px and larger)
     margin-top: 4px;
   }
   
-
+.logo {
+  max-width: 250px;
+}
   .col-lg-5 {
     width: 40%;
   }

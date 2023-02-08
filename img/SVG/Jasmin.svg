@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="The_Designer" data-name="The Designer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610.03 548.29">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        font-family: LouvetteDisplay-Ultra, 'Louvette Display';
+        font-size: 149.87px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: #f89938;
+        stroke: #f7941d;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: FinoSans-Regular, 'Fino Sans';
+        font-size: 74.94px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(34.81 209.29)"><tspan class="cls-1" x="0" y="0">J</tspan><tspan x="86.33" y="0">a</tspan><tspan class="cls-5" x="161.86" y="0">s</tspan><tspan x="226.16" y="0">min</tspan></text>
+  <circle class="cls-3" cx="556.48" cy="194.35" r="18.73"/>
+  <text class="cls-4" transform="translate(38.26 323.62)"><tspan x="0" y="0">The Designer</tspan></text>
+</svg>
