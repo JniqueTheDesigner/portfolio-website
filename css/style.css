@@ -7,6 +7,7 @@ Accent Color (Tan): #B07E09;
 * {
   box-sizing: border-box;
 }
+
 header {
   background-color: #000000;
   border-bottom: 2px#b07e09 solid;
@@ -16,7 +17,6 @@ header {
   box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.49);
   -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.49);
   -moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.49);
- 
 }
 
 header > a {
@@ -47,7 +47,7 @@ nav > ul > li > a {
 }
 
 main {
-  padding-top: 150px;
+  padding-top: 174px;
 }
 
 /* hero section */
@@ -131,8 +131,6 @@ body {
     Width: 100%;
     padding: 10px;
     margin: 25px 25px;
-    
-
   }
 
  .icon {
@@ -315,191 +313,115 @@ Medium devices (641px and larger)
   }
 
   main {
-    padding-top: 362px;
+    padding-top: 272px;
   }
 
   .col-md-6 {
     width: 50%;
-    
   }
 
-  .description {
-    padding-left: 25em;
-    ;
+  .column {
+    padding-top: 25px ;
+    padding-right: 20px;
   }
+
+  .container {
+    padding-top: 20px;
+  }
+
 }
 
  /* ==============================
 large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
   
 .logo {
   max-width: 250px;
 }
-  .col-lg-5 {
-    width: 40%;
-  }
 
-  .description {
-    padding-left: 40em;
-    ;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+main {
+  padding-top: 362px;
 }
 
-/* ==============================
-large2 devices (1024px and larger)
-================================= */
-@media only screen and (min-width: 1024px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
+  .col-lg-5 {
+    width: 40%;
   }
 
   .col-lg-7 {
     width: 60%;
   }
 
+  .column {
+    padding-top: 35px ;
+    padding-right: 30px;
+  }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
+  
+  Body {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+  }
+
 }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
+  main {
+    padding-top: 423px;
   }
 
   .col-xlg-5 {
     width: 40%;
   }
 
-  .description {
-    padding-left: 40em;
-    ;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
   .col-xlg-7 {
     width: 60%;
   }
 
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  Body {
+    font-size: 26px;
   }
+
 }
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
+  main {
+    padding-top: 423px;
   }
-
 
   .col-extralg-5 {
     width: 40%;
-  }
-
-  .description {
-    padding-left: 45em;
-    ;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {
-  header {
-    text-align: unset;
-    padding: 99px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
   }
 
   .col-extralg-7 {
     width: 60%;
   }
 
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  Body {
+    font-size: 32px;
   }
+
+
 }
+
+
 
