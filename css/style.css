@@ -269,6 +269,10 @@ opacity: 0.8;
   padding: 0 15px;
 }
 
+.spacing {
+  padding: 40px 0;
+}
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -292,6 +296,7 @@ Medium devices (641px and larger)
     text-align: unset;
     padding: 99px 0 13px;
     max-height: 400px;
+    position: relative;
   }
 
   nav {
@@ -316,7 +321,7 @@ Medium devices (641px and larger)
   }
 
   main {
-    padding-top: 272px;
+    padding-top: 0;
   }
 
   .col-md-6 {
@@ -332,6 +337,8 @@ Medium devices (641px and larger)
     padding-top: 20px;
   }
 
+
+
 }
 
  /* ==============================
@@ -341,10 +348,6 @@ large devices (1024px and larger)
   
 .logo {
   max-width: 250px;
-}
-
-main {
-  padding-top: 362px;
 }
 
   .col-lg-5 {
@@ -384,10 +387,6 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 
-  main {
-    padding-top: 400px;
-  }
-
   .col-xlg-5 {
     width: 40%;
   }
@@ -406,10 +405,6 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
-
-  main {
-    padding-top: 400px;
-  }
 
   .col-extralg-5 {
     width: 40%;
