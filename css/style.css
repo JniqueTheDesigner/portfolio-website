@@ -8,6 +8,7 @@ Accent Color (Tan): #B07E09;
   box-sizing: border-box;
 }
 
+
 header {
   background-color: #000000;
   border-bottom: 2px#b07e09 solid;
@@ -30,7 +31,7 @@ header > a {
 
 nav > ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 10px 0 0 0;
   margin: 0px;
 }
 
@@ -47,7 +48,7 @@ nav > ul > li > a {
 }
 
 main {
-  padding-top: 174px;
+  padding-top: 160px;
 }
 
 /* hero section */
@@ -160,7 +161,7 @@ body {
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #000;
+  background-color: #000000;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 500;
   padding: 4px 15px 4px 15px;
@@ -234,8 +235,9 @@ opacity: 0.8;
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 24px 0 0 ;
 }
+
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
@@ -289,6 +291,7 @@ Medium devices (641px and larger)
   header {
     text-align: unset;
     padding: 99px 0 13px;
+    max-height: 400px;
   }
 
   nav {
@@ -353,7 +356,7 @@ main {
   }
 
   .column {
-    padding-top: 35px ;
+    padding-top: 40px ;
     padding-right: 30px;
   }
 
@@ -382,7 +385,7 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
 
   main {
-    padding-top: 423px;
+    padding-top: 400px;
   }
 
   .col-xlg-5 {
@@ -405,7 +408,7 @@ Extra-large devices (1920px or larger)
 @media only screen and (min-width: 1920px) {
 
   main {
-    padding-top: 423px;
+    padding-top: 400px;
   }
 
   .col-extralg-5 {
@@ -420,6 +423,9 @@ Extra-large devices (1920px or larger)
     font-size: 32px;
   }
 
+  .column {
+    padding-top: 55px ;
+  }
 
 }
 
